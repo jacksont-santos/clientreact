@@ -1,0 +1,57 @@
+.pesquisar {
+    width: 4rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    background-color: blue;
+}
+.pesquisar:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+.search {
+    display: flex;
+    width: 50%;
+    position: relative;
+    top: 1rem;
+    left: 25%;
+}
+.home {
+    background-image: url("./../../../public/cinema-projetor.png");
+    background-repeat: no-repeat;
+    background-size: 90rem 40rem;  
+    color: whitesmoke;
+    height: 40rem;
+    width: 100%;
+    padding-top: 7rem;
+}
+.init {
+    position: absolute;
+    top: 15rem;
+    left: 3rem;
+    font-size: 20px;
+}
+.cad {
+    position: absolute;
+    bottom: 13rem;
+    left: 3rem;
+    font-size: 20px;
+}
+.strong:hover {
+    cursor:pointer;
+    color: violet;
+}
+.homeList {
+    position: absolute;
+    right: 25rem;
+    bottom: 4rem;
+    font-size: 20px;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 4px;
+    border-radius: 4px;
+}
+.homeList:hover {
+    transform: scale(1.1);
+}
