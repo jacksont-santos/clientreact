@@ -4,7 +4,8 @@ import Header from './components/header/header';
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 import Login from './components/login/login';
 import List from './components/list/list';
-import Card from "./components/card";
+import Card from "./components/card/card";
+import User from './components/user/user';
 import axios from "axios";
 import "./index.css";
 import Home from "./components/home/home";
@@ -21,6 +22,7 @@ ReactDOM.render(
         <Route path={"/list"} element={<List />} />
         <Route path={"/film/:id"} element={<Card />} />
         <Route path={"/login"} element={<Login />}/>
+        <Route path={"/user/:token"} element={<User />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

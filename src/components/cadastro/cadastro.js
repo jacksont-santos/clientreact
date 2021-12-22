@@ -119,12 +119,15 @@ const Cadastro = (props) => {
           <button type="submit" className="sucess">
             <strong>Cadastrar</strong>
           </button>
-        </div>
+          </div>
         <div className="justify-content">
           <button type="button" className="danger" onClick={esvaziar}>
-            <strong> Apagar tudo</strong>
+            <strong>Apagar tudo</strong>
           </button>
-        </div>
+          <button type="button" className="danger" onClick={modal}>
+            <strong>Cancelar</strong>
+          </button>
+          </div>
       </form>
     </div>
   );
